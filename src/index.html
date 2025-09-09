@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simhastha 2028 – Smart Crowd Management</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Simhastha 2028</h1>
+    <p>Smart Crowd Management System</p>
+  </header>
+
+  <main>
+    <section id="qr-registration">
+      <h2>QR Code Registration</h2>
+      <button onclick="generateQR()">Generate QR</button>
+      <div id="qr-output"></div>
+    </section>
+
+    <section id="missing-person">
+      <h2>Missing Person Search</h2>
+      <input type="text" placeholder="Enter name or ID" />
+      <button>Search</button>
+    </section>
+
+    <section id="alerts">
+      <h2>Emergency Alerts</h2>
+      <p>No active alerts</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
